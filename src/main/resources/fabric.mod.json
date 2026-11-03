@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "texturepackselector",
+  "version": "${version}",
+  "name": "Texture Pack Selector",
+  "description": "A mod to select and apply different texture packs",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/TexturePackSelector"
+  },
+  "license": "MIT",
+  "icon": "assets/texturepackselector/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.texturepackselector.TexturePackSelectorMod"
+    ]
+  },
+  "mixins": [
+    "texturepackselector.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
